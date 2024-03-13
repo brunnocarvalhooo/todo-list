@@ -1,0 +1,23 @@
+.contentContainer {
+  position: absolute;
+  margin-top: 173px;
+  width: 736px;
+}
+
+@media (max-width: 900px) {
+  .contentContainer {
+    width: 80vw;
+  }
+}
+
+.main {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.appContainer {
+  width: 100%; 
+  display: flex; 
+  justify-content: center;
+}
+

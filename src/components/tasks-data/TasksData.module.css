@@ -1,0 +1,39 @@
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.createdTasks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.createdTasks span {
+  color: var(--blue);
+}
+
+.createdTasks p {
+  background: var(--gray-400);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.completed  {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+}
+
+.completed span {
+  color: var(--purple);
+}
+
+.completed p {
+  background: var(--gray-400);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
